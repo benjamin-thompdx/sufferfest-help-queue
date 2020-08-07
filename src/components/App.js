@@ -1,4 +1,5 @@
 import React from 'react';
+import Header from './Header';
 
 function App(){
   const date = "08/06/2020";
@@ -6,7 +7,7 @@ function App(){
   const detail = "When performing my weekly workouts, the MPH reading seems to be way off and I'd like to see accurate stats for all my rides.";
   return (
     <React.Fragment>
-      <h1>Sufferfest Help Queue</h1>
+      <Header />
       <h3>{date}</h3>
       <h3>{subject}</h3>
       <p><em>{detail}</em></p>
