@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 function Ticket(props){
   return (
@@ -10,5 +11,11 @@ function Ticket(props){
     </React.Fragment>
   );
 }
+
+Ticket.propTypes = {
+  date: PropTypes.string.isRequired,
+  subject: PropTypes.string.isRequired,
+  detail: PropTypes.string
+};
 
 export default Ticket;
