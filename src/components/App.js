@@ -1,5 +1,6 @@
 import React from 'react';
 import Header from './Header';
+import TicketList from './TicketList';
 
 function App(){
   const date = "08/06/2020";
@@ -8,10 +9,7 @@ function App(){
   return (
     <React.Fragment>
       <Header />
-      <h3>{date}</h3>
-      <h3>{subject}</h3>
-      <p><em>{detail}</em></p>
-      <hr/>
+      <TicketList />
     </React.Fragment>
   );
 }
