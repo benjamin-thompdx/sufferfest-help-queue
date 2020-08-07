@@ -3,6 +3,21 @@ import Ticket from './Ticket';
 
 const masterTisketList = [
   {
+    date: "07/01/2020",
+    subject: "What equipment do I need for Sufferfest?",
+    detail: "Is a smart turbo trainer the best option for connecting to my bike?"
+  },
+  {
+    date: "07/16/2020",
+    subject: "Does Sufferfest work on Android?",
+    detail: "I am an Android user and want to know if my phone is compatibale with SUfferfest."
+  },
+  {
+    date: "07/27/2020",
+    subject: "Half Monty",
+    detail: "What's the difference between Half Monty and Full Frontal? When should I do one versus the other?"
+  },
+  {
     date: "08/01/2020",
     subject: "MPH doesn't seem to be reading correctly",
     detail: "When performing my weekly workouts, the MPH reading seems to be way off and I'd like to see accurate stats for all my rides."
